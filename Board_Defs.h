@@ -376,6 +376,9 @@ extern const uint8_t	external_int_to_digital_pin_PGM[];
 #define	_DTWI0_IPL		_I2C1_IPL_IPC
 #define	_DTWI0_SPL		_I2C1_SPL_IPC
 
+#define _DTWI0_SCL_PIN  2
+#define _DTWI0_SDA_PIN  3
+
 /* ------------------------------------------------------------ */
 /*					A/D Converter Declarations					*/
 /* ------------------------------------------------------------ */
