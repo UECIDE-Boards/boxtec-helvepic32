@@ -20,13 +20,14 @@ core=chipkit
 manual=http://www.mathias-wilhelm.de/arduino/embedded-boards/helvepic32
 name=boxtec-helvepic32
 
-options.usb.name=USB Settings
-options.usb.default=withSerial
+options.usb.a_cdcacm.flags=-D__USB_ENABLED__::-D__USB_CDCACM__::-D__SERIAL_IS_USB__
+options.usb.a_cdcacm.name=Serial
+options.usb.b_cdcacm_km.flags=-D__USB_ENABLED__::-D__USB_CDCACM_KM__::-D__SERIAL_IS_USB__
+options.usb.b_cdcacm_km.name=Serial, Keyboard & Mouse
+options.usb.default=a_cdcacm
+options.usb.name=USB
 options.usb.purge=true
-options.usb.withoutSerial.name=Disable USB Serial
-options.usb.withoutSerial.flags=
-options.usb.withSerial.name=Enable USB Serial
-options.usb.withSerial.flags=-D_USE_USB_FOR_SERIAL_
+options.usb.z_custom.name=Custom
 
 bootloader.file=${board:root}/bootloader
 
