@@ -58,6 +58,7 @@
 */
 
 #define	_BOARD_NAME_	"HelvePic32"
+#define _USB
 
 /* Define the peripherals available on the board.
 */
