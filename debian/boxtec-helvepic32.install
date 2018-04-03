@@ -1,3 +1,4 @@
 Board_Data.c boards/Boxtec/boxtec-helvepic32
 Board_Defs.h boards/Boxtec/boxtec-helvepic32
 board.txt boards/Boxtec/boxtec-helvepic32
+HELVEPIC32.hex boards/Boxtec/boxtec-helvepic32
